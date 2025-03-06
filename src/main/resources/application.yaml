@@ -4,3 +4,12 @@ spring:
 
 server:
   port: 8080
+
+db:
+  postgresql:
+    host: "${POSTGRESQL_HOST}"
+    port: 5432
+    db: "demo_0z30"
+    schema: "public"
+    username: "demo_user"
+    password: "TkVCC1FXZaLnt11WEsbKZxiNMOVKMA80"
