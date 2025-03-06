@@ -39,7 +39,7 @@ class PostgreSQLConfiguration: AbstractR2dbcConfiguration() {
                 .username(username)
                 .password(password)
                 .schema(schema)
-                .enableSsl()
+                //.enableSsl()
                 .build()
         )
 }
